@@ -14,6 +14,20 @@ body {
 header {
 	background-color: #FFFFFF;
 }
+landing-img {
+  height: 300px;         /* Maak de afbeelding minder hoog */
+  object-fit: cover;     /* Zorgt dat hij niet vervormt */
+  border-radius: 10px;   /* Optioneel, voor mooie afgeronde hoeken */
+}
+main {
+  margin-top: 0;
+  padding-top: 0;
+}
+body {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 
 /* Changing the background color for the navigation bar */
 
