@@ -47,7 +47,11 @@ footer a:hover {
 	color: #FFFFFF;
 	font-weight: bold;
 }
-
+.landing-img {
+  width: 100%;            /* De afbeelding wordt 50% van de breedte van het scherm */
+  height: auto;          /* Hoogte past zich automatisch aan (verhoudingen blijven goed) */
+  max-width: 1500px;
+}
 /* Hero Section shadow */
 
 .white-shadow {
