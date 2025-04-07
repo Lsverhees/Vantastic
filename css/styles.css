@@ -57,3 +57,13 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+
+.contact-icon {
+  width: 20px;
+  height: auto;
+}
+footer {
+  background-color: #f8f9fa;
+  font-size: 0.95rem;
+}
+
