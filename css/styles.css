@@ -67,3 +67,8 @@ footer {
   font-size: 0.95rem;
 }
 
+.landing-img {
+  max-height: 200vh;
+  width: auto;
+  height: auto;
+} 
