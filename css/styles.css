@@ -84,10 +84,17 @@ footer {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 .overlay-text {
-  bottom: 10%;
+  top: 30%;
   left: 5%;
-  font-size: 1.8rem;
+  font-size: 3rem;
   font-weight: bold;
-  width: 90%;
-  max-width: 500px;
+  width: 100%;
+  max-width: 900px;
 }
+.top-left { 
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  font-size: 1.5rem; 
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);}
