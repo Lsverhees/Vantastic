@@ -66,9 +66,28 @@ footer {
   background-color: #f8f9fa;
   font-size: 0.95rem;
 }
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
 
 .landing-img {
   max-height: 200vh;
   width: auto;
   height: auto;
 } 
+.overlay-text, .bottom-left, .image-container .container {
+  position: absolute;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+.overlay-text {
+  bottom: 10%;
+  left: 5%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 90%;
+  max-width: 500px;
+}
