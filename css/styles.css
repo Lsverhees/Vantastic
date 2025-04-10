@@ -84,7 +84,7 @@ footer {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 .overlay-text {
-  top: 30%;
+  top: 10%;
   left: 5%;
   font-size: 3rem;
   font-weight: bold;
@@ -93,7 +93,7 @@ footer {
 }
 .top-left { 
   position: absolute;
-  top: 70%;
+  top: 30%;
   left: 5%;
   font-size: 1.5rem; 
   color: white;
