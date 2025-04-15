@@ -97,4 +97,21 @@ footer {
   left: 5%;
   font-size: 1.5rem; 
   color: white;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);}
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+.small-heading {
+  font-size: 1.0rem; /* of een andere kleinere waarde */
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+thead {
+  background-color: #f4f4f4;
+}
