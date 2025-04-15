@@ -1,55 +1,33 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-/* Changing the main font and background colour */
+
 
 body {
-	font-family:Playfair Display;
+	font-family: Playfair Display;
 	background-color: #FFFFFF;
 }
 
-/* Changing the background colour for the header */
 
 header {
 	background-color: #FFFFFF;
-  /* Optioneel, voor mooie afgeronde hoeken */
-}
-main {
-  margin-top: 0;
-  padding-top: 0;
-}
-body {
-  margin-top: 0;
-  padding-top: 0;
 }
 
-
-/* Changing the background color for the navigation bar */
 
 .navbar {
 	background-color: #FFFFFF;
 }
 
-/* Effect on social media buttons */
 
 footer a:hover {
 	opacity: .5;
 }
 
-/* Corporate navbar */
 
 #navbar-corporate a.active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
-.landing-img {
-  width: 100%;            /* De afbeelding wordt 50% van de breedte van het scherm */
-  height: auto;          /* Hoogte past zich automatisch aan (verhoudingen blijven goed) */
-  max-width: 1500px;
-  margin-bottom: 100px;
-}
-/* Hero Section shadow */
+
 
 .white-shadow {
 	text-shadow: -.01em -.01em .01em white,
@@ -57,61 +35,37 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+      body {
+        background-color: white;
+        font-family: 'Segoe UI', sans-serif;
+      }
 
-.contact-icon {
-  width: 20px;
-  height: auto;
-}
-footer {
-  background-color: #f8f9fa;
-  font-size: 0.95rem;
-}
-.image-container {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-}
+      .hero-section {
+        background-color: #f8f9fa;
+        padding: 4rem 1rem;
+      }
 
-.landing-img {
-  max-height: 200vh;
-  width: auto;
-  height: auto;
-} 
-.overlay-text, .bottom-left, .image-container .container {
-  position: absolute;
-  color: white;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
-}
-.overlay-text {
-  top: 10%;
-  left: 5%;
-  font-size: 3rem;
-  font-weight: bold;
-  width: 100%;
-  max-width: 900px;
-}
-.top-left { 
-  position: absolute;
-  top: 30%;
-  left: 5%;
-  font-size: 1.5rem; 
-  color: white;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
-}
-.small-heading {
-  font-size: 1.0rem; /* of een andere kleinere waarde */
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1rem;
-}
-th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
-}
-thead {
-  background-color: #f4f4f4;
-}
+      .hero-img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .highlight {
+        background-color: #AAC8A7;
+        padding: 3rem 1rem;
+      }
+
+      .highlight h2, .highlight p {
+        color: #000;
+      }
+
+      footer {
+        background-color: #f0f0f0;
+      }
+
+      .instagram-icon {
+        width: 26px;
+      }
+
